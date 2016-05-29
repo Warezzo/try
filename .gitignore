@@ -1,0 +1,15 @@
+{
+        int radius = 4;
+        const double PI = 3.14159;
+        double circum, area;
+
+        area = PI * radius * radius;
+        circum = 2 * PI * radius;
+
+        Console.WriteLine("Raggio = {0}, PI ={1}", radius, PI);
+        Console.WriteLine("L'area è {0}", area);
+        Console.WriteLine("La circonferenza è {0}", circum);
+        Console.Read();
+    }
+    
+   }
